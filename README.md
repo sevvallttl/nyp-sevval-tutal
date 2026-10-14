@@ -9,7 +9,8 @@ Bu proje, NYP 3. Ödev için hazırlanmış Java karakter sistemi örneğidir.
 
 ## Çalıştırma
 ```bash
-javac -d out $(find src -name "*.java")
+mkdir out -Force
+javac -d out (Get-ChildItem -Path src -Recurse -Filter *.java).FullName
 java -cp out Main
 ```
 
