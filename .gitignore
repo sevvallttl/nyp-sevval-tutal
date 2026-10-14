@@ -1,0 +1,7 @@
+﻿.idea/
+out/
+bin/
+*.class
+*.log
+src/*.pdf
+src/**/*.pdf
